@@ -57,3 +57,9 @@ Ensure the following are installed (Conda/pip both work)
 Select the model you would like to run in your env (recommend using Conda to create virtual env with above requirements) and execute the following cmd: 
 
 `> python3 [filename].py`
+
+All hyperparameters are already set, and the user does not need to make any changes. 
+
+run.py will output the Dice and Sensitivity scores to the terminal along with logging information from training and validation. It will also save loss curves and the predicted masks. These results are explained in the paper. 
+
+k_run.py will save the predicted masks and create a submissions.csv file. 
