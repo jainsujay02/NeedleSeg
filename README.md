@@ -1,4 +1,4 @@
-# BE 224B Course Project
+#  NeedleSeg
 
 ## Overview
 
